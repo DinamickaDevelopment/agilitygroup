@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*dependencies*/
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
@@ -8801,7 +8801,7 @@ button.close {
   width: 570px;
   height: 100px;
   margin: 50px auto 25px;
-  background-image: url(../img/logo.png);
+  background-image: url(../img/logotype.png);
   background-repeat: no-repeat;
 }
 
