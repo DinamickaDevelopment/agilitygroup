@@ -5,6 +5,7 @@
     <title>Agilite Group</title>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+    <meta name="robots" content="noindex,nofollow">
 </head>
 
 <body>
@@ -39,14 +40,19 @@
                     <fieldset class="email_group">
                         <textarea id="subject" name="fsubject" placeholder="Subject"></textarea>
                         <div class="submit_btn">
+                            <div class="loader"></div>
                             <input type="submit" name="fsubmit" id="submit" value="Submit">
+                            <div class="error"></div>
                         </div>
                     </fieldset>
+
+                    <!--<input type="textarea" name="fsubject" id="subject" value="" placeholder="Subject">-->
                 </form>
             </div>
         </div>
     </div>
-    <sript src="js/mail.js"></sript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

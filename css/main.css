@@ -8793,35 +8793,23 @@ button.close {
   }
 }
 /* line 10, ../sass/_style.scss */
-html, body {
-  width: 100%;
-  height: 100%;
-}
-
-/* line 14, ../sass/_style.scss */
-body {
-  display: flex;
-  align-items: center;
-}
-
-/* line 18, ../sass/_style.scss */
 .logo_holder {
   margin-bottom: 60px;
 }
-/* line 20, ../sass/_style.scss */
+/* line 12, ../sass/_style.scss */
 .logo_holder .logo {
   width: 570px;
   height: 100px;
-  margin: 20px auto 25px;
-  background-image: url(../img/logotype.png);
+  margin: 50px auto 25px;
+  background-image: url(../img/logo.png);
   background-repeat: no-repeat;
 }
 
-/* line 29, ../sass/_style.scss */
+/* line 21, ../sass/_style.scss */
 .aboutrow {
   margin-bottom: 50px;
 }
-/* line 31, ../sass/_style.scss */
+/* line 23, ../sass/_style.scss */
 .aboutrow .content {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
@@ -8832,7 +8820,7 @@ body {
   width: 72%;
 }
 
-/* line 39, ../sass/_style.scss */
+/* line 31, ../sass/_style.scss */
 .labelt {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 42px;
@@ -8846,19 +8834,19 @@ body {
   border-left: 3px solid #2caee2;
 }
 
-/* line 49, ../sass/_style.scss */
+/* line 41, ../sass/_style.scss */
 #contact {
   width: 100%;
 }
-/* line 51, ../sass/_style.scss */
+/* line 43, ../sass/_style.scss */
 #contact fieldset.labeled_group {
   float: left;
 }
-/* line 54, ../sass/_style.scss */
+/* line 46, ../sass/_style.scss */
 #contact fieldset.email_group {
   width: 225px;
 }
-/* line 57, ../sass/_style.scss */
+/* line 49, ../sass/_style.scss */
 #contact label {
   width: 44px;
   height: 44px;
@@ -8868,7 +8856,7 @@ body {
   background-position: 50%;
   position: absolute;
 }
-/* line 66, ../sass/_style.scss */
+/* line 58, ../sass/_style.scss */
 #contact input, #contact textarea {
   border: 1px solid #3b4a4d;
   font-family: "Source Sans Pro", sans-serif;
@@ -8877,7 +8865,7 @@ body {
   letter-spacing: 0.025em;
   line-height: 35px;
 }
-/* line 71, ../sass/_style.scss */
+/* line 63, ../sass/_style.scss */
 #contact input#name, #contact input#email {
   width: 225px;
   height: 44px;
@@ -8885,13 +8873,13 @@ body {
   display: block;
   margin: 0 20px 20px 0;
 }
-/* line 78, ../sass/_style.scss */
+/* line 70, ../sass/_style.scss */
 #contact textarea#subject {
   width: 225px;
   height: 108px;
   resize: none;
 }
-/* line 83, ../sass/_style.scss */
+/* line 75, ../sass/_style.scss */
 #contact input#submit {
   border: 0;
   background-color: #1991eb;
@@ -8909,12 +8897,40 @@ body {
   font-variant: small-caps;
 }
 
-/* line 98, ../sass/_style.scss */
+/* line 90, ../sass/_style.scss */
+.submit_btn {
+  position: relative;
+}
+/* line 92, ../sass/_style.scss */
+.submit_btn .error {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  float: right;
+  margin: 20px 0;
+  clear: right;
+  display: none;
+}
+/* line 99, ../sass/_style.scss */
+.submit_btn .loader {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/loader.gif);
+  display: block;
+  position: absolute;
+  top: 24px;
+  left: 15px;
+  display: none;
+}
+
+/* line 112, ../sass/_style.scss */
 label[for="name"] {
   background-image: url(../img/person.png);
 }
 
-/* line 102, ../sass/_style.scss */
+/* line 116, ../sass/_style.scss */
 label[for="email"] {
   background-image: url(../img/mail.png);
 }
